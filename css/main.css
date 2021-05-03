@@ -8,15 +8,15 @@ body * {
 }
 
 body {
-    background-color: black;
+    background-color: white;
     margin-top: 25vh;
 }
 
 .top {
     float: left;
-    width: 800px;
+    width: 1000px;
     height: 50px;
-    margin-left: calc ((100% - 800px) / 2);
+    margin-left: calc ((100% - 1000px) / 2);
     background: white
 }
 
@@ -30,7 +30,7 @@ body {
 
 .navigation {
     float: right;
-    width: 50%;
+    width: 45%;
     margin-top: 30px;
 }
 
@@ -69,15 +69,15 @@ body {
 
 .container {
     float: left;
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
     background-color: white;
 }
 
 .left-column {
     float: left;
     width: 55%;
-    position: relative;
+    position: relative
 }
 
 .left-column > img {
@@ -100,7 +100,7 @@ body {
     cursor: pointer;
 }
 
-.fa > button :hover {
+.fa > button:hover {
     background-color: #e93b3e;
 }
 
@@ -111,12 +111,12 @@ body {
 
 .fa > button:last-child {
     right: 0%;
-    margin-right: 24px;
+    margin-right: 70px;
 }
 
 .right-column {
     float: left;
-    width: 45px;
+    width: 45%;
     padding: 10px;
     margin-top: 50px;
 }
@@ -133,4 +133,68 @@ h1 {
     line-height: 48px;
     font-size: 46px;
     font-weight: bold;
+}
+
+p {
+    width: 100%;
+    line-height: 38px;
+    font-size: 13px;
+}
+
+.nutrition {
+    float:left;
+    width: 40%;
+}
+
+h3 {
+    width: 100%;
+    line-height: 38px;
+    font-size: 16px;
+    padding-bottom: 7px;
+}
+
+ul {
+    float: left;
+    width: 100%;
+    line-height: 28px;
+    font-size: 13px;
+    list-style-type: none;
+}
+
+span {
+    color: #ff5e61;
+    line-height: 28px;
+    font-size: 28px;
+    padding-right: 10px;
+}
+
+.contents {
+    float:left;
+    width: 60%;
+}
+
+.contents > img {
+    float: left;
+    padding: 10px 15px 10px 0;
+}
+
+.button {
+    float:left;
+    width: 100%;
+}
+
+.button > button {
+    background-color: #ff5e61;
+    border: none;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+    line-height: 20px;
+    border-radius: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button > button:hover {
+    background-color: #e93b3e;
 }
