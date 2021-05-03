@@ -1,34 +1,136 @@
+body,
+body * {
+    margin-top: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
 body {
-    background-color: white;
-
+    background-color: black;
+    margin-top: 25vh;
 }
 
-body > main {
-    display: inline-block;
+.top {
+    float: left;
     width: 800px;
-
-}
-
-header {
-    display: inline-block;
-    width: 800px;;
-}
-
-header > img {
     height: 50px;
-    float:left;
-
+    margin-left: calc ((100% - 800px) / 2);
+    background: white
 }
 
-header > nav {
-float: right;
-margin-top: 6px;
+.top > img {
+    float: left;
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
 }
 
-nav > a {
-float: right;
-font: size 20px;
-color: black;
-text-decoration: none;
-padding: 10px;
+.navigation {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.toplinks {
+    float: left;
+}
+
+.toplinks > a {
+    line-height: 24px;
+    font-size: 14px;
+    padding: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #535353;
+}
+
+.toplinks > a:hover {
+    color: #ff5e61;
+}
+
+.icons {
+    float: right;
+    margin-top: 2px;
+    margin-right: 20px;
+}
+
+.icons > i {
+    display: inline-block;
+    padding: 0 15px;
+    color: #535353;
+}
+
+.icons > i:hover {
+    color: black;
+}
+
+.container {
+    float: left;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    background-color: white;
+}
+
+.left-column {
+    float: left;
+    width: 55%;
+    position: relative;
+}
+
+.left-column > img {
+    float: left;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+.fa >button {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    top: 225px;
+    border: none;
+    border-radius: 23px;
+    background-color: #ff5e61;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.fa > button :hover {
+    background-color: #e93b3e;
+}
+
+.fa > button:first-child {
+    left: 0px;
+    margin-left: 24px;
+}
+
+.fa > button:last-child {
+    right: 0%;
+    margin-right: 24px;
+}
+
+.right-column {
+    float: left;
+    width: 45px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+h2 {
+    width: 100%;
+    line-height: 38px;
+    font-size: 24px;
+    color: #ff5e61;
+}
+
+h1 {
+    width: 100%;
+    line-height: 48px;
+    font-size: 46px;
+    font-weight: bold;
 }
